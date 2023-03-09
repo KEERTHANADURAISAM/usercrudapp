@@ -1,0 +1,36 @@
+.side-bar{
+    color: azure;
+    background-color: rgb(49, 49, 225);
+    margin-top: 0;
+    display: flex;
+    gap: 5px;
+    
+}
+.span-profile{
+color: black;
+}
+
+.ul-nav {
+    display: flex;
+    gap: 15px;
+    text-align: justify;
+    flex-direction: column;
+    list-style-type: none;
+
+  }
+  .hr{
+    width: 100%;
+  }
+  .nav-li {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    float: right;
+    margin-left: 55%;
+    gap: 10px;
+    padding: 5px;
+  }
+  .nav-link{
+text-decoration: none;
+color: aliceblue;
+  }

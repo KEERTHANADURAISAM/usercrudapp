@@ -1,0 +1,45 @@
+.btn {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+  
+}
+.btn-color1 {
+  background-color: green;
+}
+.btn-color2 {
+  background-color: yellowgreen;
+}
+.btn-color3 {
+  background-color: goldenrod;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-btn{
+    font-family: cursive;
+    background-color: aquamarine;
+    height: 30px;
+    border-radius: 30px;
+}
+.table{
+  border: 1px solid black;
+  border-collapse:collapse ;
+  padding: 2px;
+  text-align: center;
+}
+th{
+  border-bottom: 1px solid black;
+  border: 2px solid black;
+  padding: 5px;
+}
+td{
+  border: 1px solid black;
+}

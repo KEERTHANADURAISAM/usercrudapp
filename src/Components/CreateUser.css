@@ -1,0 +1,19 @@
+
+
+.input{
+    height: 15px;
+    width: 300px;
+}
+.container{
+    margin-left: 20px;
+    text-align:justify;
+    padding: 40px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-error{
+    border: 1px solid red;
+}
