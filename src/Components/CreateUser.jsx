@@ -5,8 +5,10 @@ import "./CreateUser.css";
 import Base from "../Base/Base";
 import { useFormik } from "formik";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 export default function CreateUser() {
+  const navigate=useNavigate()
   const formik = useFormik({
     initialValues: {
       name: "",
@@ -42,6 +44,7 @@ export default function CreateUser() {
     onSubmit:async (values) => {
       let user=await axios.post("https://63ae58f93e465169166fab20.mockapi.io/user",values)
     alert("user created")
+    navigate('/user')
     },
   });
 
